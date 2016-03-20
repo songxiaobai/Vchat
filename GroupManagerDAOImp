@@ -1,0 +1,79 @@
+package daoimpl;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.util.Date;
+
+import pojo.Group;
+import dao.GroupManagerDAO;
+
+
+public class GroupManagerDAOImpl implements GroupManagerDAO{
+	
+
+	Connection conn;
+@Override
+public Group findGroupById(int group_zhujian) {
+	PreparedStatement pstate = null;
+	ResultSet res = null;
+	Group group = null;
+	try {
+		String sql = "select int group_zhujian, int group_userid, String group_name," +
+				"Date group_creattime, int group_index, int group_state +" +
+				" from chat_group where group_zhujian = ?";
+		pstate = this.conn.prepareStatement(sql);
+		pstate.setInt(1, group_zhujian);
+		res = pstate.executeQuery();
+		int zhujian = res.getInt(1);
+		int userid = res.getInt(2);
+		String name = res.getString(3);
+		Date creattime = res.getDate(4);
+		int index = res.getInt(5);
+		int state = res.getInt(6);
+		while(res.next()){
+			group = new Group(zhujian,userid,name,creattime,index,state);
+			}
+	}catch (Exception e) {
+		e.printStackTrace();
+	}
+	return group;
+}
+
+@Override
+public boolean doUpdGroupName(Group group) {
+	PreparedStatement pstate = null;
+	ResultSet res = null;
+	Group group1 = null;
+	try {
+		String sql = "update int group_zhujian = ?, int group_userid = ?, String group_name = ?," +
+				"Date group_creattime = ?, int group_index = ?, int group_state = ?" +
+				" from chat_group where group_zhujian = 0";
+		pstate = this.conn.prepareStatement(sql);
+		
+		
+	} catch (Exception e) {
+		e.printStackTrace();
+		
+	}
+	return false;
+}
+
+@Override
+public Group doInsGroup(Group group) {
+	PreparedStatement pstate = null;
+	ResultSet res = null;
+	Group group2 = null;
+	try {
+		
+	} catch (Exception e) {
+		e.printStackTrace();
+	}
+	return group;
+}
+
+@Override
+public boolean delGroup(Group group) {
+	// TODO Auto-generated method stub
+	return false;
+}
+}
