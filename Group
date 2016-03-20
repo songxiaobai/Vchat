@@ -1,0 +1,63 @@
+package pojo;
+
+import java.util.Date;
+
+public class Group {
+	private int group_zhujian;//
+	private int group_userid;//
+	private String group_name;//
+	private Date group_creattime;//
+	private int group_index;//
+	private int group_state;//
+	public int getGroup_zhujian() {
+		return group_zhujian;
+	}
+	public Group() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public void setGroup_zhujian(int group_zhujian) {
+		this.group_zhujian = group_zhujian;
+	}
+	public int getGroup_userid() {
+		return group_userid;
+	}
+	public void setGroup_userid(int group_userid) {
+		this.group_userid = group_userid;
+	}
+	public String getGroup_name() {
+		return group_name;
+	}
+	public void setGroup_name(String group_name) {
+		this.group_name = group_name;
+	}
+	public Date getGroup_creattime() {
+		return group_creattime;
+	}
+	public void setGroup_creattime(Date group_creattime) {
+		this.group_creattime = group_creattime;
+	}
+	public int getGroup_index() {
+		return group_index;
+	}
+	public void setGroup_index(int group_index) {
+		this.group_index = group_index;
+	}
+	public int getGroup_state() {
+		return group_state;
+	}
+	public void setGroup_state(int group_state) {
+		this.group_state = group_state;
+	}
+	public Group(int group_zhujian, int group_userid, String group_name,
+			Date group_creattime, int group_index, int group_state) {
+		super();
+		this.group_zhujian = group_zhujian;
+		this.group_userid = group_userid;
+		this.group_name = group_name;
+		this.group_creattime = group_creattime;
+		this.group_index = group_index;
+		this.group_state = group_state;
+	}
+	
+}
