@@ -1,0 +1,63 @@
+ackage pojo;
+
+import java.util.Date;
+
+public class Qun {
+	private int qun_zhujian;//
+	private String qun_name;//
+	private int qun_type;//
+	private int qun_id;//
+	private String qun_logo;//
+	private Date qun_creattime;//
+	private int qun_maxnum;//
+	private int qun_state;//
+	public int getQun_zhujian() {
+		return qun_zhujian;
+	}
+	public void setQun_zhujian(int qun_zhujian) {
+		this.qun_zhujian = qun_zhujian;
+	}
+	public String getQun_name() {
+		return qun_name;
+	}
+	public void setQun_name(String qun_name) {
+		this.qun_name = qun_name;
+	}
+	public int getQun_type() {
+		return qun_type;
+	}
+	public void setQun_type(int qun_type) {
+		this.qun_type = qun_type;
+	}
+	public int getQun_id() {
+		return qun_id;
+	}
+	public void setQun_id(int qun_id) {
+		this.qun_id = qun_id;
+	}
+	public String getQun_logo() {
+		return qun_logo;
+	}
+	public void setQun_logo(String qun_logo) {
+		this.qun_logo = qun_logo;
+	}
+	public Date getQun_creattime() {
+		return qun_creattime;
+	}
+	public void setQun_creattime(Date qun_creattime) {
+		this.qun_creattime = qun_creattime;
+	}
+	public int getQun_maxnum() {
+		return qun_maxnum;
+	}
+	public void setQun_maxnum(int qun_maxnum) {
+		this.qun_maxnum = qun_maxnum;
+	}
+	public int getQun_state() {
+		return qun_state;
+	}
+	public void setQun_state(int qun_state) {
+		this.qun_state = qun_state;
+	}
+
+}
