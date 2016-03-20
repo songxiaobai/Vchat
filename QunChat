@@ -1,0 +1,42 @@
+package pojo;
+
+import java.util.Date;
+
+public class QunChat {
+	private int qunchat_zhujian;//
+	private int qunchat_sendid;//
+	private Date qunchat_sendtime;//
+	private String qunchat_msg;//
+	private int qunchat_state;//
+	public int getQunchat_zhujian() {
+		return qunchat_zhujian;
+	}
+	public void setQunchat_zhujian(int qunchat_zhujian) {
+		this.qunchat_zhujian = qunchat_zhujian;
+	}
+	public int getQunchat_sendid() {
+		return qunchat_sendid;
+	}
+	public void setQunchat_sendid(int qunchat_sendid) {
+		this.qunchat_sendid = qunchat_sendid;
+	}
+	public Date getQunchat_sendtime() {
+		return qunchat_sendtime;
+	}
+	public void setQunchat_sendtime(Date qunchat_sendtime) {
+		this.qunchat_sendtime = qunchat_sendtime;
+	}
+	public String getQunchat_msg() {
+		return qunchat_msg;
+	}
+	public void setQunchat_msg(String qunchat_msg) {
+		this.qunchat_msg = qunchat_msg;
+	}
+	public int getQunchat_state() {
+		return qunchat_state;
+	}
+	public void setQunchat_state(int qunchat_state) {
+		this.qunchat_state = qunchat_state;
+	}
+
+}
