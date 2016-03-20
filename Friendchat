@@ -1,0 +1,49 @@
+package pojo;
+
+import java.util.Date;
+
+public class Friendchat {
+	private int friendchat_zhujian;//主键
+	private int friendchat_sendid;//发送者ID
+	private int friendchat_getid;//接受者ID
+	private Date friendchat_sendtime;//发送时间
+	private String friendchat_msg;//发送内容
+	private int friendchat_state;//状态
+	public int getFriendchat_zhujian() {
+		return friendchat_zhujian;
+	}
+	public void setFriendchat_zhujian(int friendchat_zhujian) {
+		this.friendchat_zhujian = friendchat_zhujian;
+	}
+	public int getFriendchat_sendid() {
+		return friendchat_sendid;
+	}
+	public void setFriendchat_sendid(int friendchat_sendid) {
+		this.friendchat_sendid = friendchat_sendid;
+	}
+	public int getFriendchat_getid() {
+		return friendchat_getid;
+	}
+	public void setFriendchat_getid(int friendchat_getid) {
+		this.friendchat_getid = friendchat_getid;
+	}
+	public Date getFriendchat_sendtime() {
+		return friendchat_sendtime;
+	}
+	public void setFriendchat_sendtime(Date friendchat_sendtime) {
+		this.friendchat_sendtime = friendchat_sendtime;
+	}
+	public String getFriendchat_msg() {
+		return friendchat_msg;
+	}
+	public void setFriendchat_msg(String friendchat_msg) {
+		this.friendchat_msg = friendchat_msg;
+	}
+	public int getFriendchat_state() {
+		return friendchat_state;
+	}
+	public void setFriendchat_state(int friendchat_state) {
+		this.friendchat_state = friendchat_state;
+	}
+	
+}
