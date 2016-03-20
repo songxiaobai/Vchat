@@ -1,0 +1,179 @@
+package pojo;
+
+import java.util.Date;
+
+public class User {
+	private int user_id;//账号
+	private String user_name;//昵称
+	private String user_pwd;//登陆密码
+	private Date user_Birthday;//生日
+	private int user_level;//等级
+	private int user_sex;//性别
+	private String user_area_guo;//地区(国家)
+	private String user_area_sheng;//地区(省)
+	private String user_area_shi;//地区(市)
+	private String user_area_xian;//地区(县)
+	private String user_area_xiang;//地区(乡)
+	private String user_logo;//头像
+	private int user_state;//状态
+	private Date user_register;//注册时间
+	private int user_tel;//联系电话
+	private String user_mail;//邮箱
+	private String user_wechat;//微信
+	private String user_hometown;//故乡
+	private String user_explain;//个人说明
+	private String user_englishname;//英文名
+	private int user_secrecy;//保密
+	private int user_time;//登陆时长
+	private Date lastlogintime;//上次登陆时间
+	private int user_zhujian;//主键
+	public int getUser_id() {
+		return user_id;
+	}
+	public void setUser_id(int user_id) {
+		this.user_id = user_id;
+	}
+	public String getUser_name() {
+		return user_name;
+	}
+	public void setUser_name(String user_name) {
+		this.user_name = user_name;
+	}
+	public String getUser_pwd() {
+		return user_pwd;
+	}
+	public void setUser_pwd(String user_pwd) {
+		this.user_pwd = user_pwd;
+	}
+	public Date getUser_Birthday() {
+		return user_Birthday;
+	}
+	public void setUser_Birthday(Date user_Birthday) {
+		this.user_Birthday = user_Birthday;
+	}
+	public int getUser_level() {
+		return user_level;
+	}
+	public void setUser_level(int user_level) {
+		this.user_level = user_level;
+	}
+	public int getUser_sex() {
+		return user_sex;
+	}
+	public void setUser_sex(int user_sex) {
+		this.user_sex = user_sex;
+	}
+	public String getUser_area_guo() {
+		return user_area_guo;
+	}
+	public void setUser_area_guo(String user_area_guo) {
+		this.user_area_guo = user_area_guo;
+	}
+	public String getUser_area_sheng() {
+		return user_area_sheng;
+	}
+	public void setUser_area_sheng(String user_area_sheng) {
+		this.user_area_sheng = user_area_sheng;
+	}
+	public String getUser_area_shi() {
+		return user_area_shi;
+	}
+	public void setUser_area_shi(String user_area_shi) {
+		this.user_area_shi = user_area_shi;
+	}
+	public String getUser_area_xian() {
+		return user_area_xian;
+	}
+	public void setUser_area_xian(String user_area_xian) {
+		this.user_area_xian = user_area_xian;
+	}
+	public String getUser_area_xiang() {
+		return user_area_xiang;
+	}
+	public void setUser_area_xiang(String user_area_xiang) {
+		this.user_area_xiang = user_area_xiang;
+	}
+	public String getUser_logo() {
+		return user_logo;
+	}
+	public void setUser_logo(String user_logo) {
+		this.user_logo = user_logo;
+	}
+	public int getUser_state() {
+		return user_state;
+	}
+	public void setUser_state(int user_state) {
+		this.user_state = user_state;
+	}
+	public Date getUser_register() {
+		return user_register;
+	}
+	public void setUser_register(Date user_register) {
+		this.user_register = user_register;
+	}
+	public int getUser_tel() {
+		return user_tel;
+	}
+	public void setUser_tel(int user_tel) {
+		this.user_tel = user_tel;
+	}
+	public String getUser_mail() {
+		return user_mail;
+	}
+	public void setUser_mail(String user_mail) {
+		this.user_mail = user_mail;
+	}
+	public String getUser_wechat() {
+		return user_wechat;
+	}
+	public void setUser_wechat(String user_wechat) {
+		this.user_wechat = user_wechat;
+	}
+	public String getUser_hometown() {
+		return user_hometown;
+	}
+	public void setUser_hometown(String user_hometown) {
+		this.user_hometown = user_hometown;
+	}
+	public String getUser_explain() {
+		return user_explain;
+	}
+	public void setUser_explain(String user_explain) {
+		this.user_explain = user_explain;
+	}
+	public String getUser_englishname() {
+		return user_englishname;
+	}
+	public void setUser_englishname(String user_englishname) {
+		this.user_englishname = user_englishname;
+	}
+	public int getUser_secrecy() {
+		return user_secrecy;
+	}
+	public void setUser_secrecy(int user_secrecy) {
+		this.user_secrecy = user_secrecy;
+	}
+	public int getUser_time() {
+		return user_time;
+	}
+	public void setUser_time(int user_time) {
+		this.user_time = user_time;
+	}
+	public Date getLastlogintime() {
+		return lastlogintime;
+	}
+	public void setLastlogintime(Date lastlogintime) {
+		this.lastlogintime = lastlogintime;
+	}
+	public int getUser_zhujian() {
+		return user_zhujian;
+	}
+	public void setUser_zhujian(int user_zhujian) {
+		this.user_zhujian = user_zhujian;
+	}
+	public User(int user_id,String user_name,String user_pwd){
+		this.user_id = user_id;
+		this.user_name = user_name;
+		this.user_pwd = user_pwd;
+	}
+}
