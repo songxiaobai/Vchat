@@ -1,0 +1,49 @@
+package pojo;
+
+import java.util.Date;
+
+public class FriendGroup {
+	private int friendgroup_zhujian;//
+	private int friendgroup_group_id;//
+	private int friendgroup_user_id;//
+	private Date friendgroup_adddate;//
+	private String friendgroup_remark;//
+	private int friendgroup_state;//
+	public int getFriendgroup_zhujian() {
+		return friendgroup_zhujian;
+	}
+	public void setFriendgroup_zhujian(int friendgroup_zhujian) {
+		this.friendgroup_zhujian = friendgroup_zhujian;
+	}
+	public int getFriendgroup_group_id() {
+		return friendgroup_group_id;
+	}
+	public void setFriendgroup_group_id(int friendgroup_group_id) {
+		this.friendgroup_group_id = friendgroup_group_id;
+	}
+	public int getFriendgroup_user_id() {
+		return friendgroup_user_id;
+	}
+	public void setFriendgroup_user_id(int friendgroup_user_id) {
+		this.friendgroup_user_id = friendgroup_user_id;
+	}
+	public Date getFriendgroup_adddate() {
+		return friendgroup_adddate;
+	}
+	public void setFriendgroup_adddate(Date friendgroup_adddate) {
+		this.friendgroup_adddate = friendgroup_adddate;
+	}
+	public String getFriendgroup_remark() {
+		return friendgroup_remark;
+	}
+	public void setFriendgroup_remark(String friendgroup_remark) {
+		this.friendgroup_remark = friendgroup_remark;
+	}
+	public int getFriendgroup_state() {
+		return friendgroup_state;
+	}
+	public void setFriendgroup_state(int friendgroup_state) {
+		this.friendgroup_state = friendgroup_state;
+	}
+	
+}
