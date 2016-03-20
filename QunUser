@@ -1,0 +1,56 @@
+package pojo;
+
+import java.util.Date;
+
+public class QunUser {
+	private int qunuser_zhujian;//
+	private int qunuser_qun_id;//
+	private int qunuser_user_id;//
+	private int qunuser_level;//
+	private String qunuser_card;//
+	private Date qunuser_enterdate;//
+	private int qunuser_state;//
+	public int getQunuser_zhujian() {
+		return qunuser_zhujian;
+	}
+	public void setQunuser_zhujian(int qunuser_zhujian) {
+		this.qunuser_zhujian = qunuser_zhujian;
+	}
+	public int getQunuser_qun_id() {
+		return qunuser_qun_id;
+	}
+	public void setQunuser_qun_id(int qunuser_qun_id) {
+		this.qunuser_qun_id = qunuser_qun_id;
+	}
+	public int getQunuser_user_id() {
+		return qunuser_user_id;
+	}
+	public void setQunuser_user_id(int qunuser_user_id) {
+		this.qunuser_user_id = qunuser_user_id;
+	}
+	public int getQunuser_level() {
+		return qunuser_level;
+	}
+	public void setQunuser_level(int qunuser_level) {
+		this.qunuser_level = qunuser_level;
+	}
+	public String getQunuser_card() {
+		return qunuser_card;
+	}
+	public void setQunuser_card(String qunuser_card) {
+		this.qunuser_card = qunuser_card;
+	}
+	public Date getQunuser_enterdate() {
+		return qunuser_enterdate;
+	}
+	public void setQunuser_enterdate(Date qunuser_enterdate) {
+		this.qunuser_enterdate = qunuser_enterdate;
+	}
+	public int getQunuser_state() {
+		return qunuser_state;
+	}
+	public void setQunuser_state(int qunuser_state) {
+		this.qunuser_state = qunuser_state;
+	}
+
+}
